@@ -10,8 +10,8 @@ const axios = require('axios');
 // CONFIGURATION
 // ============================================
 
-const UW_API_KEY = 'efde1afc-7b12-4054-917f-c9ab9b5c8af1';
-const N8N_WEBHOOK_URL = 'YOUR_N8N_WEBHOOK_URL_HERE'; // Update this after deploying n8n workflow
+const UW_API_KEY = 'efde1afc-7def-4638-9f13-701b87a0086f';
+const N8N_WEBHOOK_URL = 'https://ndrozd6261.app.n8n.cloud/webhook/uw-live-signal'; // Update this after deploying n8n workflow
 
 // Unusual Whales WebSocket endpoint
 // Check their docs for exact URL - common patterns:
