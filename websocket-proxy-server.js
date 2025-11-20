@@ -253,7 +253,7 @@ function processOptionsFlow(data) {
     rawData: data
   };
   
-  console.log(`🚨 HIGH PREMIUM: ${signal.symbol} ${signal.side} $${(premium/1000000).toFixed(2)}M`);\n  
+  console.log('🚨 HIGH PREMIUM: ' + signal.symbol + ' ' + signal.side + ' $' + (premium/1000000).toFixed(2) + 'M'); 
   trackSignal(signal);
   sendToN8N(signal);
 }
