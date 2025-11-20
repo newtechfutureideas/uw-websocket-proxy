@@ -1,0 +1,24 @@
+{
+  "name": "unusual-whales-websocket-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket proxy server for Unusual Whales → n8n integration",
+  "main": "websocket-proxy-server.js",
+  "scripts": {
+    "start": "node websocket-proxy-server.js",
+    "dev": "nodemon websocket-proxy-server.js"
+  },
+  "keywords": ["unusual-whales", "websocket", "trading", "options", "n8n"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2",
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
